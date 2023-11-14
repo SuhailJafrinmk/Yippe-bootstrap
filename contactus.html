@@ -9,6 +9,7 @@
 <body style="box-sizing: border-box; margin: 0px; padding: 0px;">
 
 
+  
   <!------------------------------------------------navigation-------------------------------------------------->
 
 
@@ -61,7 +62,8 @@
 
 
 <div style="border-bottom: 5px solid black;" class="container-fluid">
-  <img class="img-fluid" src="images/contactus-banner.jpg" alt="contactus-banner-img">
+  <img class="img-fluid d-sm-block d-none" src="images/contactus-banner.jpg" alt="contactus-banner-img">
+  <img class="img-fluid d-sm-none d-block" src="images/contactus-mobile.png" alt="contactus-image-mobile">
 </div>
 
 
@@ -70,11 +72,11 @@
 
     <div class="container">
       <div class="row p-4">
-        <div class="col-6">
+        <div class="col-sm-6 col-12">
           <h4 class="fw-bold" style="color: #5f249f;">Interested in visiting our factories?</h4>
           <p style="color: #5f249f;">We would love to have you visit our plants and we are more than willing to schedule an appointment. Do be advised that due to logistical issues and to not disrupt the running of the factories, we club our guests in to batches of not less than 25. Since our processes are confidential, we would need to run a bona fide check on our guests. Hopefully, this would not be of great inconvenience to you.</p>
         </div>
-        <div class="col-6">
+        <div class="col-sm-6 col-12">
           <h4 class="fw-bold" style="color: #5f249f;">To coordinate your visit, do reach out to us through any of the following:</h4>
           <p style="color: #5f249f;">- Sign up with us here<br>
             - Call us on our toll-free number 1800 42544 4444 on any working day between 9 30 AM through 5 30 PM.<br>
@@ -159,7 +161,6 @@
     </div>
      </form>
             </div>
-
         </div>
     </div>
 
@@ -315,8 +316,6 @@
     }else{
       document.getElementById("stateerror").textContent="";
     }
-
-
     });
 </script>
 </body>
